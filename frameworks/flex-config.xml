@@ -46,6 +46,15 @@
       <!--
       <debug>true</debug>
       -->
+      
+      <define append="true"> 
+          <name>CONFIG::debugging</name> 
+          <value>true</value> 
+      </define> 
+      <define append="true"> 
+          <name>CONFIG::release</name> 
+          <value>false</value> 
+      </define> 
 
       <!-- List of SWC files or directories to compile against but to omit from -->
       <!-- linking.                                                             -->
